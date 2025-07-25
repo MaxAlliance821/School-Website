@@ -1037,7 +1037,7 @@ section {
   color: #fff; /* Or any foreground color */
   /* Crisp outline for modern browsers */
   -webkit-text-stroke: 2px #003366; /* Change #003366 to your desired stroke color */
-  text-stroke: 2px #003366;         /* For future compatibility */
+  text-stroke: 5px #003366;         /* For future compatibility */
 
   /* Fallback for browsers without text-stroke: creates a shadow "halo" */
   text-shadow:
