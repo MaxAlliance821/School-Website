@@ -1033,6 +1033,19 @@ section {
   font-size: var(--font-size-sm);
   color: var(--color-text-secondary);
 }
+.hero-title {
+  color: #fff; /* Or any foreground color */
+  /* Crisp outline for modern browsers */
+  -webkit-text-stroke: 2px #003366; /* Change #003366 to your desired stroke color */
+  text-stroke: 2px #003366;         /* For future compatibility */
+
+  /* Fallback for browsers without text-stroke: creates a shadow "halo" */
+  text-shadow:
+    -2px -2px 0 #003366,
+     2px -2px 0 #003366,
+    -2px  2px 0 #003366,
+     2px  2px 0 #003366;
+}
 
 /* -------------- Utility -------------- */
 .cta-button { width: fit-content; }
